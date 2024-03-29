@@ -15,7 +15,7 @@ while not any(2048 in row for row in functions.game_board):
     if key == 'left':
         functions.on_left()
     if key == 'enter':
-        #testing win condition, also need to implement lose condition
+        #this button makes you automatically win lol
         functions.game_board[0][0] = 2048
         functions.print_board()
 
