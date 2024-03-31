@@ -42,30 +42,6 @@ def print_board():
             else:
                 print(letter,end=end)
 
-
-
-        # column = 0
-        # while column < 4:
-        #     letter = board[row][column]
-        #     if letter in word:
-        #         if letter == word[column]:
-        #             print(Fore.GREEN + letter, end=" ")
-        #         else:
-        #             print(Fore.YELLOW + letter, end=" ")
-        #     else:
-        #         print(letter,end=" ")
-        #     column += 1
-        # # Checking for Column 5 separately to have line indent
-        # letter = board[row][column]
-        # if letter in word:
-        #     if letter == word[column]:
-        #         print(Fore.GREEN + letter)
-        #     else:
-        #         print(Fore.YELLOW + letter)
-        # else:
-        #     print(letter)
-        # row += 1
-
 def guess_function():
     global counter
     while counter <= 4:
