@@ -1,2 +1,4 @@
-﻿# consolegames
-Here are some console games that I made while practicing Python.
+﻿# games
+Here are some games I made while learning Python.
+
+Some are console games and some were made using PyGame.
